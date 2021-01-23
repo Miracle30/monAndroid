@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="clear_shortcut">Clear Shortcut</string>
+    <string name="settings_shortcut">Settings Shortcut</string>
+    <string name="clear_label">Clear label</string>
+    <string name="settings_label">Settings label</string>
+    <string name="exit_label">Exit label</string>
+    <string name="exit_shortcut">Exit shortcut</string>
+    <string name="message_caption">Warning </string>
+    <string name="message_content">You select to clear text uh oh</string>
+    <string name="close">Close ne</string>
+    <string name="exit_caption">Really want to exit ..</string>
+    <string name="exit_content">You just have one choice</string>
+    <string name="yes">Yes-sir</string>
+    <string name="no">No, i dont think so</string>
+    <string name="fore_color">Pick color of your text</string>
+    <string name="back_color">Pick color of your background</string>
+
+    <string-array name="color_name_array">
+        <item name="red">Red</item>
+        <item name="orange">Orange</item>
+        <item name="yellow">Yellow</item>
+        <item name="green">Green</item>
+        <item name="blue">Blue</item>
+        <item name="indigo">Indigo</item>
+        <item name="violet">Violet</item>
+    </string-array>
+    
+    <string-array name="color_array">
+        <item>#ED2F2F</item>
+        <item>#FDFD4F</item>
+        <item>#FF9800</item>
+        <item>#88EC56</item>
+        <item>#3F51B5</item>
+        <item>#4b0082</item>
+        <item>#ee82ee</item>
+    </string-array>
+    <string-array name="size">
+        <item name ="16">16</item>
+        <item name ="20">20</item>
+        <item name ="30">30</item>
+        <item name ="45">45</item>
+
+    </string-array>
+</resources>

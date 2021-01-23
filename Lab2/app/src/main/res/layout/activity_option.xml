@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tableLayout1"
+    android:stretchColumns="2"
+    tools:context=".Activity_option">
+    <TableRow>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/fore_color"/>
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_span="2"
+            android:entries="@array/color_name_array">
+        </Spinner>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/back_color"
+            android:layout_width="wrap_content"></TextView>
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:entries="@array/color_name_array"></Spinner>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Pick your text size"
+            android:layout_width="wrap_content"></TextView>
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:entries="@array/size"></Spinner>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="OK"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_column="2"
+            android:onClick="onOK"></Button>
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".bai4">
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="Nhap so"
+        android:textSize="20sp"
+        />
+    <Spinner
+        android:id="@+id/spn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/list"
+        android:background="@color/white"
+        />
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="Nhap so"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tinh"
+        android:background="@color/yellow"/>
+    <TextView
+        android:id="@+id/tvKetqua"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="30sp"/>
+</LinearLayout>
