@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".layout3">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <Spinner
+            android:id="@+id/colorSpn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="37dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:entries="@array/beerColor"
+            />
+
+        <Button
+            android:id="@+id/btnFindBeer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/findBeer"
+            android:layout_below="@id/colorSpn"
+            android:layout_alignLeft="@id/colorSpn"
+            android:onClick="doSth"/>
+
+        <TextView
+            android:id="@+id/tvBrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/btnFindBeer"
+            android:layout_alignLeft="@id/btnFindBeer"
+            android:text="@string/brands"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+

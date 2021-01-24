@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SamPie</string>
+    <string name="Heading">Lẹt gô</string>
+    <string name="fake">Đây là activity số 2</string>
+
+    <string name="nameButton1">Nút 1</string>
+    <string name="nameButton2">Nút 2</string>
+    <string name="nameButton3">Quay xe</string>
+    <string name="nameButton4">Android Head First</string>
+    <string name="nameButton5">Làm gì đó chưa biết</string>
+    <string name="nameButton6">dôn guých</string>
+
+    <string-array name="beerColor">
+        <item>light</item>
+        <item>amber</item>
+        <item>brown</item>
+        <item>dark</item>
+    </string-array>
+    <string name="brands">Brands</string>
+    <string name="findBeer">Find Beer</string>
+
+    <!-- new    -->
+    <string name="send">Send</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+
+</resources>
